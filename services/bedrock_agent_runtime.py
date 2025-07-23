@@ -11,7 +11,7 @@ def invoke_agent(agent_id, agent_alias_id, session_id, prompt):
         # See https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent-runtime/client/invoke_agent.html
         response = client.invoke_agent(
             agentId='CUXWDMITFZ',                     #2 Add Agent ID
-            agentAliasId='SLK2BJDJHV',                #3 Add Agent Alias ID
+            agentAliasId='JXTNPHYWRI',                #3 Add Agent Alias ID
             enableTrace=True,
             sessionId=session_id,
             inputText=prompt

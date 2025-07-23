@@ -10,7 +10,7 @@ import yaml
 
 # Get config from environment variables
 agent_id = 'CUXWDMITFZ'        #4 Add Agent ID  
-agent_alias_id = 'SLK2BJDJHV'  #5 Add Agent Alias ID
+agent_alias_id = 'JXTNPHYWRI'  #5 Add Agent Alias ID
 ui_title =  "Welcome to Hotel Booking Agent"
 ui_icon = "BEDROCK_AGENT_TEST_UI_ICON"
 
