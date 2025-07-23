@@ -84,9 +84,9 @@ if prompt := st.chat_input():
             st.markdown(output_text, unsafe_allow_html=True)
 
 trace_types_map = {
-    "Pre-Processing": ["preGuardrailTrace", "preProcessingTrace"],
+    "Pre-Processing": [ "preProcessingTrace"],
     "Orchestration": ["orchestrationTrace"],
-    "Post-Processing": ["postProcessingTrace", "postGuardrailTrace"]
+    "Post-Processing": ["postProcessingTrace"]
 }
 
 trace_info_types_map = {
